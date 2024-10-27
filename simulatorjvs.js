@@ -203,11 +203,10 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
     ribit=ribitchoose;
     ribitchoose=(ribitchoose-dn/100);
     let sum1 = hishuv(x1,x2,ribitOzar,tkofabeshanim);
-    document.getElementById('tbltozza').rows[1].cells[1].innerText=parseInt(sum1).toLocaleString();
+    document.getElementById('tbltozza').rows[1].cells[1].innerText=parseInt(sum1).toLocaleString() + " " + "ש\"ח";
    
     let sum2=hishuv(x1,x2,ribitchoose,tkofabeshanim);
-    document.getElementById('tbltozza').rows[1].cells[2].innerText=parseInt(sum2).toLocaleString() ; 
-    document.getElementById('tbltozza').rows[1].cells[2].innerText=parseInt(sum2).toLocaleString();
+    document.getElementById('tbltozza').rows[1].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + "ש\"ח";
     
 
     document.getElementById('tbltozza').rows[1].cells[0].innerText='תקופה של ' + tkofabeshanim + ' שנים';

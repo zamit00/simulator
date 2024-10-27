@@ -8,7 +8,8 @@
     .thbold {font-size: 20px;color:white;}
     label{font-size: 15px;}
     .logo{margin-right:280px;}
-    .tblkot{font-size: 20px;color: green;}
+    
+    .tblkota{font-size: 20px;color: green;}
     th{
      .thkotsik{color: white;font-size: 20px;}
      text-align: center ;
@@ -16,6 +17,7 @@
      color: white;
    }
     .tblkot{
+      font-size: 20px;  
      color: gold;
      font-weight: bold;
     margin: 5px 10px;
@@ -77,6 +79,7 @@
    }
    
    @media (min-width: 767px){
+    tblkota{font-size: 25px;color: green;}
      .main{width: 850px;} 
      header{font-size: 50px;}
      .thamuda {font-size: 20px;color:white;}
@@ -84,10 +87,10 @@
     .thbold {font-size: 20px;color:white;}
      .logo{margin-right:320px;}
      label{font-size: 30px;}
-     .tblkot{font-size: 25px;}
+     
   .thkotsik{color: white;  font-size: 25px; }
    .tblkot{
-    
+    font-size: 25px;
      color: gold;
      font-weight: bold;
     margin: 5px 10px;

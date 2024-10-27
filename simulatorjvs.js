@@ -207,7 +207,15 @@ if (isNaN(dn) || dn < 0 || dn > 1) {
 
 
 function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){ 
+    const tabelenetuney=document.getElementById('netunylakuach');
+    const tabeletozza=document.getElementById('tbltozza');
+    const tozzakot=document.getElementById('tozaakot');
+
+    tabelenetuney.style.display= 'flex';
+    tabeletozza.style.display= 'block';
+    tozzakot.style.display= 'block';
     let ribit;
+    
     ribitOzar=(ribitOzar-dn/100);
     ribit=ribitchoose;
     ribitchoose=(ribitchoose-dn/100);
@@ -309,9 +317,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
     document.getElementById('dmein').innerText= document.getElementById('dmein').innerText + " " +dn+'%'+ " שנתי";
     document.getElementById('sikons').innerText=document.getElementById('sikons').innerText + " " + document.getElementById('choosesikon').rows[rowIndex].cells[0].innerText;
     document.getElementById('tvachsikon').innerText=  document.getElementById('tvachsikon').innerText + " " + document.getElementById('choosesikon').rows[0].cells[colu].innerText;
-    document.getElementById('netunylakuach').style.display= 'flex';
-    document.getElementById('tozaakot').style.display= 'block';
-    document.getElementById('tbltozza').style.display= 'block';
+    
 
     
 

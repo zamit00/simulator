@@ -8,7 +8,7 @@
     .thbold {font-size: 20px;color:white;}
     label{font-size: 15px;}
     .logo{margin-right:280px;}
-    .tblkot{font-size: 20px;}
+    .tblkot{font-size: 20px;color: green;}
     th{
      .thkotsik{color: white;font-size: 20px;}
      text-align: center ;
@@ -88,7 +88,7 @@
   .thkotsik{color: white;  font-size: 25px; }
    .tblkot{
     
-     color: gold;
+     color: green;
      font-weight: bold;
     margin: 5px 10px;
    }

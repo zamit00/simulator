@@ -1,0 +1,158 @@
+
+
+@media (max-width: 768px){
+    .main{width: 750px;} 
+    header{font-size: 25px;} 
+    .thamuda {font-size: 20px;color:black;}
+    .thbolda {font-size: 20px;color:gold; width: 300px; margin-left: 10px;}
+    .thbold {font-size: 20px;color:black;}
+    label{font-size: 15px;}
+    .logo{margin-right:280px;}
+    .tblkot{font-size: 20px;}
+    th{
+     border:1px solid black;
+     text-align: center ;
+     background-color: gold;
+     color: black;
+   }
+    .tblkot{
+     background-color: black;
+     color: green;
+     font-weight: bold;
+    margin: 5px 10px;
+    }
+   body {
+   
+     display: flex;
+     justify-content: center;         
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color:black;
+     color: gold;
+     padding: 0%;
+     margin:0%;
+   }
+   .main{
+     display: flex;
+     flex-direction: column;
+   }
+   header{display: flex;
+     justify-content: right;
+   }
+   table, tr,  td{
+     border:1px solid gold;
+     text-align: center ;
+    font-size: 18px
+   }
+   
+    .choosesikon{font-size: 20px;}
+   table{
+     margin-top: 15px;}
+   .thamuda{text-align: center;
+   
+     }
+    
+     .netunim{ margin-bottom:20px ;}
+     .dmn{margin-top: 10px;}
+     input,select{width: 65px;height: 25px;
+       text-align: center;font-size: 20px;}
+       .tozaakot{font-size: 20px;color: green;font-weight: bold;margin: 35px 0px 20px 0px;}
+       .textgreen{color: green; font-weight: bold;font-size: 20px;margin-right: 20px;}
+       .tbltozza{margin-top: 15px;display: none;}
+   
+   .tdemza{width: 175px;}
+   .thbold{text-align: right;
+           padding-right: 5px;
+          width: 500px;}
+
+   .tbltozza td, .tbltozza th{border: 1 px solid gold;}
+   .netunylakuach{
+    display: none;
+    flex-direction: column;
+   align-items: right;
+}
+
+.arba{min-width: 300px;}
+   }
+   
+   @media (min-width: 767px){
+     .main{width: 850px;} 
+     header{font-size: 50px;}
+     .thamuda {font-size: 20px;color:black;}
+    .thbolda {font-size: 20px;color:gold; width: 300px;}
+    .thbold {font-size: 20px;color:black;}
+     .logo{margin-right:320px;}
+     label{font-size: 30px;}
+     .tblkot{font-size: 25px;}
+   
+   .tblkot{
+     background-color: black;
+     color: green;
+     font-weight: bold;
+    margin: 5px 10px;
+   }
+   th{
+     border:1px solid black;
+     text-align: center ;
+     background-color: gold;
+     color: black;
+   }
+   body {
+     display: flex;
+     justify-content: center;         
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color:black;
+     color: gold;
+     padding: 0%;
+     margin:0%;
+   }
+   .main{
+     display: flex;
+     flex-direction: column;
+   }
+   header{display: flex;
+     justify-content: right;
+   }
+   table, tr,  td{
+     border:1px solid gold;
+     text-align: center ;
+   }
+   table{
+     margin-top: 15px;}
+   .thamuda{text-align: center;
+   
+     }
+    
+     .netunim{ margin-bottom:20px ;}
+     .dmn{margin-top: 10px;}
+     input,select{width: 80px;height: 30px;
+     text-align: center;font-size: 25px;}
+     .tozaakot{display: block; font-size: 30px;
+        color: green;font-weight: bold;margin: 35px 0px 5px 0px;
+        border: none;
+    }
+    .textgreen{color: green; font-weight: bold;font-size: 25px; margin-right: 20px;}
+
+    .tbltozza{margin-top: 15px;display: none;}
+   
+   .tdemza{width: 175px;}
+   .thbold{text-align: right;
+           padding-right: 5px;
+          width: 500px;}
+
+   .tbltozza td, .tbltozza th{border: 1 px solid gold;}
+   .netunylakuach{
+    display: none;
+    flex-direction: column;
+   align-items: right;
+}
+
+.arba{min-width: 300px;}
+   }
+   
+   
+   
+   

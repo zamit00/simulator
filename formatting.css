@@ -68,7 +68,7 @@
 
    .tbltozza td, .tbltozza th{border: 1 px solid gold;}
    .netunylakuach{
-    display: flex;
+    display: none;
     flex-direction: column;
    align-items: right;
 }
@@ -145,7 +145,7 @@
 
    .tbltozza td, .tbltozza th{border: 1 px solid gold;}
    .netunylakuach{
-    display: flex;
+    display: none;
     flex-direction: column;
    align-items: right;
 }

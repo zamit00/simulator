@@ -73,6 +73,7 @@
    align-items: right;
 }
 
+#choosesikon td, #tbltozza{border: 1px solid black;}
 .arba{min-width: 300px;}
    }
    
@@ -85,7 +86,7 @@
      .logo{margin-right:320px;}
      label{font-size: 30px;}
      .tblkot{font-size: 25px;}
-   
+   #tbltozza, #choosesikon td{border: 1px solid black;}
    .tblkot{
      background-color: white;
      color: green;

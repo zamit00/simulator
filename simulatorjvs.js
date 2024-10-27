@@ -4,6 +4,7 @@ function highlightCell(cell) {
     const tabeletozza=document.getElementById('tbltozza');
     cells.forEach(cell => {
         cell.style.backgroundColor = 'white';
+        cell.style.color='blue';
     });
 
     // Highlight the clicked cell
@@ -43,6 +44,8 @@ function highlightCell(cell) {
     
     else{ 
         cell.style.backgroundColor = 'green';
+        cell.style.color='yellow';
+        
 let x1 = parseInt(document.getElementsByName("txt1")[0].value);
 let x2 = parseInt(document.getElementsByName("txt2")[0].value);
 let dn = parseFloat(document.getElementsByName("dmeynihul")[0].value);
@@ -107,6 +110,7 @@ const tabeletozza=document.getElementById('tbltozza');
         document.getElementById('netunylakuach').style.display= 'none';
         cells.forEach(cell => {
         cell.style.backgroundColor = 'white';
+        cell.style.color='blue';   
     });
 
         

@@ -207,10 +207,12 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
     ribit=ribitchoose;
     ribitchoose=(ribitchoose-dn/100);
     let sum1 = hishuv(x1,x2,ribitOzar,tkofabeshanim);
-    document.getElementById('tbltozza').rows[1].cells[1].innerText=parseInt(sum1).toLocaleString() + " " + "ש\"ח";
+    document.getElementById('tbltozza').rows[1].cells[1].innerText=parseInt(sum1).toLocaleString() + " " + &#8362;  
+;
    
     let sum2=hishuv(x1,x2,ribitchoose,tkofabeshanim);
-    document.getElementById('tbltozza').rows[1].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + "ש\"ח";
+    document.getElementById('tbltozza').rows[1].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + &#8362; 
+;
     
 
     document.getElementById('tbltozza').rows[1].cells[0].innerText='תקופה של ' + tkofabeshanim + ' שנים';
@@ -220,7 +222,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
     document.querySelector("#tbltozza tr:nth-child(3)").display='block';
 
      sum1 = hishuv(x1,x2,ribitOzar,10);
-     document.getElementById('tbltozza').rows[2].cells[1].innerText=parseInt(sum1).toLocaleString()+ " " + "ש\"ח";
+     document.getElementById('tbltozza').rows[2].cells[1].innerText=parseInt(sum1).toLocaleString()+ " " + &#8362; 
     
     if(colu===1){
      ribit=0.06; }  
@@ -231,7 +233,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
        
      } 
      sum2=hishuv(x1,x2,ribit-dn/100,10);
-     document.getElementById('tbltozza').rows[2].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + "ש\"ח"; 
+     document.getElementById('tbltozza').rows[2].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + &#8362;  
     }
     else{
         document.getElementById('tbltozza').rows[2].cells[0].innerText='';
@@ -245,7 +247,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
     document.getElementById('tbltozza').rows[3].cells[0].innerText='תקופה של 20 שנים';
     document.querySelector("#tbltozza tr:nth-child(4)").display='block';
     sum1 = hishuv(x1,x2,ribitOzar,20);
-    document.getElementById('tbltozza').rows[3].cells[1].innerText=parseInt(sum1).toLocaleString()+ " " + "ש\"ח";
+    document.getElementById('tbltozza').rows[3].cells[1].innerText=parseInt(sum1).toLocaleString()+ " " + &#8362; 
    
     if(colu===1){
         ribit=0.07;}
@@ -255,7 +257,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
           ribit=0.04;
         }
      sum2=hishuv(x1,x2,ribit-dn/100,20);
-     document.getElementById('tbltozza').rows[3].cells[2].innerText=parseInt(sum2).toLocaleString()+ " " + "ש\"ח";
+     document.getElementById('tbltozza').rows[3].cells[2].innerText=parseInt(sum2).toLocaleString()+ " " + &#8362; 
    
     }
     else{
@@ -267,7 +269,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
 
     sum1 = hishuv(x1,x2,ribitOzar,30);
     document.getElementById('tbltozza').rows[4].cells[0].innerText='תקופה של 30 שנים'
-    document.getElementById('tbltozza').rows[4].cells[1].innerText=parseInt(sum1).toLocaleString()+ " " + "ש\"ח";
+    document.getElementById('tbltozza').rows[4].cells[1].innerText=parseInt(sum1).toLocaleString()+ " " + &#8362; 
     
     if(colu===1){
        ribit=0.08;}
@@ -277,7 +279,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
         ribit=0.04;
         }
     sum2=hishuv(x1,x2,ribit-dn/100,30);
-    document.getElementById('tbltozza').rows[4].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + "ש\"ח";    
+    document.getElementById('tbltozza').rows[4].cells[2].innerText=parseInt(sum2).toLocaleString() + " " + &#8362;    
     document.getElementById('hadpeami').innerText= '';
     document.getElementById('hodshi').innerText='';
     document.getElementById('shanim').innerText= '';
@@ -296,7 +298,7 @@ function sumsum(x1, x2, dn, ribitchoose, ribitOzar,tkofabeshanim,colu,rowIndex){
         document.getElementById('hodshi').innerText=document.getElementById('hodshi').innerText + ' ללא';
     }
     else{
-        document.getElementById('hodshi').innerText=document.getElementById('hodshi').innerText + " " + parseInt(x2).toLocaleString() + " שח";
+        document.getElementById('hodshi').innerText=document.getElementById('hodshi').innerText + " " + parseInt(x2).toLocaleString() + &#8362; 
     }  
     
     document.getElementById('shanim').innerText= document.getElementById('shanim').innerText + " " + tkofabeshanim + " שנים";

@@ -48,7 +48,7 @@ function highlightCell(cell) {
         
 let x1 = parseInt(document.getElementsByName("txt1")[0].value);
 let x2 = parseInt(document.getElementsByName("txt2")[0].value);
-let dn = parseFloat(document.getElementsByName("dmeynihul")[0].value);
+let dn = parseFloat(document.getElementsById("dmeynihul")[0].value);
 let ribitchoose = cell.getAttribute("data-value");
 let ribitOzar = 0.04;
 
@@ -171,7 +171,7 @@ else{
     //if(isNaN(ribitchoose)){alert("");return;}//
     let x1 = parseInt(document.getElementsByName("txt1")[0].value);
     let x2 = parseInt(document.getElementsByName("txt2")[0].value);  
-    let dn = parseFloat(document.getElementsByName("dmeynihul")[0].value);
+    let dn = parseFloat(document.getElementsById("dmeynihul")[0].value);
     // בדיקות תקינות
 if (isNaN(x1) || isNaN(x2) || x1 < 0 || x2 < 0) {
     alert('סכומים לא תקינים');

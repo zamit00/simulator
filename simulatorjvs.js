@@ -1,5 +1,6 @@
 function highlightCell(cell) {
     // Reset all cells to the original color
+  let dn = parseFloat(document.getElementsById("dmeynihul")[0].value);
     const cells = document.querySelectorAll('#choosesikon td');
     const tabeletozza=document.getElementById('tbltozza');
     cells.forEach(cell => {
@@ -48,7 +49,7 @@ function highlightCell(cell) {
         
 let x1 = parseInt(document.getElementsByName("txt1")[0].value);
 let x2 = parseInt(document.getElementsByName("txt2")[0].value);
-let dn = parseFloat(document.getElementsById("dmeynihul")[0].value);
+
 let ribitchoose = cell.getAttribute("data-value");
 let ribitOzar = 0.04;
 
@@ -88,6 +89,7 @@ tabeletozza.style.display= 'block';
 function beforesumsum(){
     let columnIndex;
     let rowIndex;
+    let dn = parseFloat(document.getElementsById("dmeynihul")[0].value);
     const cells = document.querySelectorAll('#choosesikon td');
     let greenCellFound = false; // Flag to track if any green cell is found
 const tabeletozza=document.getElementById('tbltozza');
@@ -171,7 +173,7 @@ else{
     //if(isNaN(ribitchoose)){alert("");return;}//
     let x1 = parseInt(document.getElementsByName("txt1")[0].value);
     let x2 = parseInt(document.getElementsByName("txt2")[0].value);  
-    let dn = parseFloat(document.getElementsById("dmeynihul")[0].value);
+    
     // בדיקות תקינות
 if (isNaN(x1) || isNaN(x2) || x1 < 0 || x2 < 0) {
     alert('סכומים לא תקינים');

@@ -3,7 +3,7 @@ function highlightCell(cell) {
     const cells = document.querySelectorAll('#choosesikon td');
     const tabeletozza=document.getElementById('tbltozza');
     cells.forEach(cell => {
-        cell.style.backgroundColor = 'black';
+        cell.style.backgroundColor = 'white';
     });
 
     // Highlight the clicked cell
@@ -106,7 +106,7 @@ const tabeletozza=document.getElementById('tbltozza');
         tabeletozza.style.display= 'none';
         document.getElementById('netunylakuach').style.display= 'none';
         cells.forEach(cell => {
-        cell.style.backgroundColor = 'black';
+        cell.style.backgroundColor = 'white';
     });
 
         

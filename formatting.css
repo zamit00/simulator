@@ -4,7 +4,7 @@
     .main{width: 750px;} 
     header{font-size: 25px;} 
     .thamuda {font-size: 25px;color:white;}
-    .thbolda {font-size: 25px;color:blue; width: 300px; margin-left: 10px;}
+    .thbolda {font-size: 25px;color:blue; max-width: 450px; margin-left: 10px;}
     .thbold {font-size: 25px;color:white;width: 400px;}
     label{font-size: 20px;}
     .logo{margin-right:280px;}
@@ -65,7 +65,7 @@
    .tdemza{width: 175px;}
    .thbold{text-align: right;
            padding-right: 5px;
-          width: 400px;}
+          max-width: 450px;}
 
    
    .netunylakuach{

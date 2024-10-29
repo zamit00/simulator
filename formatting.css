@@ -3,13 +3,13 @@
 @media (max-width: 768px){
     .main{width: 750px;} 
     header{font-size: 25px;} 
-    .thamuda {font-size: 20px;color:white;}
-    .thbolda {font-size: 20px;color:blue; width: 300px; margin-left: 10px;}
-    .thbold {font-size: 20px;color:white;}
-    label{font-size: 15px;}
+    .thamuda {font-size: 25px;color:white;}
+    .thbolda {font-size: 25px;color:blue; width: 300px; margin-left: 10px;}
+    .thbold {font-size: 25px;color:white;}
+    label{font-size: 20px;}
     .logo{margin-right:280px;}
     
-    .tblkota{font-size: 20px !important;color: green !important;}
+    .tblkota{font-size: 25px !important;color: green !important;}
     th{
      .thkotsik{color: white;font-size: 20px;}
      text-align: center ;
@@ -17,7 +17,7 @@
      color: white;
    }
     .tblkot{
-      font-size: 20px;  
+      font-size: 25px;  
      color: gold;
      font-weight: bold;
     margin: 5px 10px;
@@ -44,10 +44,10 @@
    table, tr,  td, th{
      border:1px solid black;
      text-align: center ;
-    font-size: 18px
+    font-size: 22px
    }
    
-    .choosesikon{font-size: 20px;}
+    .choosesikon{font-size: 25px;}
    table{
      margin-top: 15px;}
    .thamuda{text-align: center;
@@ -56,10 +56,10 @@
     
      .netunim{ margin-bottom:20px ;}
      .dmn{margin-top: 10px;}
-     input,select{width: 65px;height: 25px;
-       text-align: center;font-size: 20px;}
-       .tozaakot{font-size: 20px;color: green;font-weight: bold;margin: 35px 0px 20px 0px;}
-       .textgreen{color: green; font-weight: bold;font-size: 20px;margin-right: 20px;}
+     input,select{width: 65px;height: 30px;
+       text-align: center;font-size: 25px;}
+       .tozaakot{font-size: 25px;color: green;font-weight: bold;margin: 35px 0px 20px 0px;}
+       .textgreen{color: green; font-weight: bold;font-size: 25px;margin-right: 20px;}
        .tbltozza{margin-top: 15px;display: none;}
    
    .tdemza{width: 175px;}

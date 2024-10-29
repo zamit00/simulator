@@ -79,7 +79,7 @@
    }
    
    @media (min-width: 767px){
-    tblkota{font-size: 25px;color: green;}
+    .tblkota{font-size: 25px !important;color: green !important;}
      .main{width: 850px;} 
      header{font-size: 50px;}
      .thamuda {font-size: 20px;color:white;}

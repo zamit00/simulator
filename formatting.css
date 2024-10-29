@@ -9,7 +9,7 @@
     label{font-size: 15px;}
     .logo{margin-right:280px;}
     
-    .tblkota{font-size: 20px;color: green;}
+    .tblkota{font-size: 20px !important;color: green !important;}
     th{
      .thkotsik{color: white;font-size: 20px;}
      text-align: center ;

@@ -4,8 +4,8 @@
     .main{width: 750px;} 
     header{font-size: 25px;} 
     .thamuda {font-size: 25px;color:white;}
-    .thbolda {font-size: 25px;color:blue; max-width: 350px; margin-left: 10px;}
-    .thbold {font-size: 25px;color:white; max-width: 350px;}
+    .thbolda {font-size: 25px;color:blue; max-width: 350px !important; margin-left: 10px;}
+    .thbold {font-size: 25px;color:white; max-width: 350px !important;}
     label{font-size: 20px;}
     .logo{margin-right:280px;}
     

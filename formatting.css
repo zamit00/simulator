@@ -44,7 +44,7 @@
    table, tr,  td, th{
      border:1px solid black;
      text-align: center ;
-    font-size: 22px
+    font-size: 25px
    }
    
     .choosesikon{font-size: 25px;}
@@ -122,6 +122,7 @@
    table, tr,  td, th{
      border:1px solid black;
      text-align: center ;
+       font-size: 22px;
    }
    table{
      margin-top: 15px;}

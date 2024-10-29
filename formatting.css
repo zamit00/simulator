@@ -4,8 +4,8 @@
     .main{width: 750px;} 
     header{font-size: 25px;} 
     .thamuda {font-size: 25px;color:white;}
-    .thbolda {font-size: 25px;color:blue; max-width: 450px; margin-left: 10px;}
-    .thbold {font-size: 25px;color:white;width: 400px;}
+    .thbolda {font-size: 25px;color:blue; max-width: 350px; margin-left: 10px;}
+    .thbold {font-size: 25px;color:white; max-width: 350px;}
     label{font-size: 20px;}
     .logo{margin-right:280px;}
     
@@ -65,7 +65,7 @@
    .tdemza{width: 175px;}
    .thbold{text-align: right;
            padding-right: 5px;
-          max-width: 450px;}
+          max-width: 350px;}
 
    
    .netunylakuach{
@@ -83,7 +83,7 @@
      .main{width: 850px;} 
      header{font-size: 50px;}
      .thamuda {font-size: 25px;color:white;}
-    .thbolda {font-size: 25px;color:blue; width: 300px;}
+    .thbolda {font-size: 25px;color:blue;  max-width: 350px;}
     .thbold {font-size: 25px;color:white;}
      .logo{margin-right:320px;}
      label{font-size: 30px;}
